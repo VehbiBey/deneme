@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+body {
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+font-weight: 100;
+font-size: 14px;
+line-height: 30px;
+color: black;
+background-color: #888;
+}
+
+.container1{
+    width: auto;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding-top: 10px;
+    position: static;
+}
+/*----------- Nav Start ----------*/
+.navbar{
+    background-color: black;
+    height: 80px;
+    border-radius: 50px;
+    position:fixed; 
+    top:5px; 
+    left:0px; 
+    right:0px;
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:25px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 80px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px 10px;
+}
+
+.navbar ul li a:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+}
+
+/*----------- Nav End -----------*/
+
+/*----------- Section Start ----------*/
+.section{
+    width: auto;
+    text-align: center;
+    margin-top: 300px;
+    position: static;
+}
+
+.section h1{
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.section p{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.section-2{
+    width: 1300px;
+    text-align: center;
+    margin-top: 300px;
+    position: static;
+    margin: auto;
+}
+
+.section-2 h1{
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.section-2 p{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+/*----------- Section End ----------*/
+
+/*----------- Footer Start ------------*/
+
+.footer-1{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.footer-1 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding-left:10px;
+}
+
+.footer-1 address{
+    padding-top: 10px;
+    color: black;
+    font-size: 13px;
+}
+/*----------- Footer End -------------*/
+
+/*----------- Other CSS ----------*/
+.ustacma{
+    margin-top: 200px;
+}
+
+.text-red{
+    color: red;
+}
+
+.duzen{
+    position: fixed;
+    bottom: 20px;
+}
+/*----------- Other CSS ----------*/
+
+/*----------- Card Start -----------*/
+.row{
+    width: 1300px;
+    height: 130vh;
+    padding: 20px;
+    background-color: skyblue;
+    position:static;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.card1{
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+    position:static;
+}
+
+.card2{
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    float: right;
+    position:static;
+}
+
+.card3{
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+    position:static;
+}
+
+.card1 .box1{
+    background-color: darkblue;
+    width: 850px;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.card1 .box2{
+    background-color: red;
+    width: 370px;
+    height: 280px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.card2 .box-2{
+    background-color: red;
+    width: 370px;
+    height: 280px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.card2 .box-1{
+    background-color: blue;
+    width: 850px;
+    height: 280px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.card3 .boxa{
+    background-color: darkblue;
+    width: 850px;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.card3 .boxb{
+    background-color: red;
+    width: 370px;
+    height: 280px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+}
+/*----------- Card End -----------*/
